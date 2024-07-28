@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>برعاية #هـكـر_الـغـلابـة</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			background-color: #000; /* black background */
+			transition: 0.5s;
+			font-size: 16px;
+		}
+		.table-container {
+			width: 90%;
+			margin: 20px auto;
+			padding: 10px;
+			background-color: transparent; /* transparent background */
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			transform: none;
+			opacity: 1;
+			animation: float 2s infinite;
+		}
+		.table {
+			width: 100%;
+			border-collapse: collapse;
+			border: none; /* no border */
+			background-color: transparent; /* transparent background */
+		}
+		.th {
+			background-color: transparent; /* transparent background */
+			color: #FF0000; /* red text */
+			padding: 5px;
+			border: 1px solid #ddd; /* grid lines */
+			text-align: center;
+		}
+		.td {
+			background-color: transparent; /* transparent background */
+			color: #FF0000; /* red text */
+			padding: 5px;
+			border: 1px solid #ddd; /* grid lines */
+			text-align: center;
+		}
+		.tr {
+			border-bottom: 1px solid #ddd; /* grid lines */
+		}
+		.table tr td {
+			border-right: 1px solid #ddd; /* grid lines */
+		}
+		.time {
+			background-color: transparent; /* transparent background */
+		}
+		.subject {
+			background-color: transparent; /* transparent background */
+		}
+		.teacher {
+			background-color: transparent; /* transparent background */
+		}
+		.day {
+			background-color: transparent; /* transparent background */
+		}
+		.button-container {
+			text-align: center;
+			margin-top: 10px;
+		}
+		.button {
+			background-color: #0099CC; /* blue background */
+			color: #fff; /* white text */
+			padding: 5px 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: 0.3s;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+			animation: pulse 1s infinite;
+		}
+		.button:hover {
+			background-color: #0077AA; /* darker blue hover background */
+		}
+		.button:active {
+			transform: translateY(2px);
+		}
+		@keyframes float {
+			0% {
+				transform: translateY(0);
+			}
+			50% {
+				transform: translateY(-10px);
+			}
+			100% {
+				transform: translateY(0);
+			}
+		}
+		@keyframes pulse {
+			0% {
+				transform: scale(1);
+			}
+			50% {
+				transform: scale(1.1);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="table-container" id="table-container">
+		<h2 style="color: #FF0000; text-align: center;">جدول مواعيد دروس</h2>
+		<table class="table">
+			<thead>
+				<tr class="tr">
+					<th class="th time">الساعة</th>
+					<th class="th subject">المادة</th>
+					<th class="th teacher">المدرس</th>
+					<th class="th day">اليوم</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr class="tr">
+					<td class="td time">8:00 </td>
+					<td class="td subject">فيزياء</td>
+					<td class="td teacher">أ. وليد الكاشف</td>
+					<td class="td day">8/7</td>
+				</tr>
+				<tr class="tr">
+					<td class="td time">9:00 AM</td>
+					<td class="td subject">كيمياء</td>
+					<td class="td teacher">أ. صفوت</td>
+					<td class="td day">8/7</td>
+				</tr>
+							<tr class="tr">
+					<td class="td time">12:00 AM</td>
+					<td class="td subject">كمياء</td>
+					<td class="td teacher">أ. محمد المصري</td>
+					<td class="td day">8/8</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">3:00 AM</td>
+					<td class="td subject">انجليزي</td>
+					<td class="td teacher">أ. محمد خليفة</td>
+					<td class="td day">3/8</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">4:00 AM</td>
+					<td class="td subject">انجليزي</td>
+					<td class="td teacher">أ. احمد سالم</td>
+					<td class="td day">الاربعاء</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">4:00 AM</td>
+					<td class="td subject">فرنساوي</td>
+					<td class="td teacher">أ. احمد سالم</td>
+					<td class="td day"> الثلاثاء</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">11:00 AM</td>
+					<td class="td subject">فرنساوي</td>
+					<td class="td teacher">أ. فضل</td>
+					<td class="td day">8/16</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">4:00 AM</td>
+					<td class="td subject">رياضيات</td>
+					<td class="td teacher">أ. سيد عبدالسلام</td>
+					<td class="td day">8/4</td>
+				</tr>
+						<tr class="tr">
+					<td class="td time">ـ:00 AM</td>
+					<td class="td subject">رياضيات</td>
+					<td class="td teacher">أ. احمد فرغلي</td>
+					<td class="td day">ـــــــــ</td>
+				</tr>
+			</tbody>
+		</table>
+		<div class="button-container">
+			<a href="https://wa.me/201022370896" target="_blank" rel="noopener noreferrer">
+				<button class="button">#هـكـر_الـغـلابـة  ᗩ𝒉ო𝖊𝓭👑</button>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
